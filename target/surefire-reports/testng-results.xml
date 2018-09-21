@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">the user launches on &quot;webAddress&quot; (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">the user should see the title of the page (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-09-19T03:51:35Z" name="Suite Generate Report" finished-at="2018-09-19T03:51:41Z" duration-ms="5999">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CukesRunner@24269709]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2018-09-19T03:51:35Z" name="Exmple Feature file" finished-at="2018-09-19T03:51:41Z" duration-ms="5999">
+      <class name="runner.CukesRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.CukesRunner@24269709]" started-at="2018-09-19T03:51:37Z" name="setUpClass" finished-at="2018-09-19T03:51:37Z" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.CukesRunner@24269709]" started-at="2018-09-19T03:51:37Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-09-19T03:51:41Z" duration-ms="4144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Example Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["This is an example feature file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">the user launches on &quot;webAddress&quot; (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">the user should see the title of the page (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CukesRunner@24269709]" started-at="2018-09-19T03:51:41Z" name="tearDownClass" finished-at="2018-09-19T03:51:41Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CukesRunner -->
+      <class name="runner.API_Test">
+        <test-method signature="getProfileService()[pri:0, instance:runner.API_Test@7a8c8dcf]" started-at="2018-09-19T03:51:35Z" name="getProfileService" finished-at="2018-09-19T03:51:37Z" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProfileService -->
+      </class> <!-- runner.API_Test -->
+    </test> <!-- Exmple Feature file -->
+  </suite> <!-- Suite Generate Report -->
+</testng-results>

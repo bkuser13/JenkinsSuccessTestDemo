@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search for Iphone X on Google",
+        "description": "",
+        "id": "searching-on-google;search-for-iphone-x-on-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4183013388,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on Google home Page",
+            "match": {
+              "location": "Google_StepDefs.the_user_is_on_Google_home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2468430456,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters \"Iphone X\" and hits search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Iphone X\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Google_StepDefs.the_user_enters_and_hits_search_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93836740,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should able to see the result of the search",
+            "match": {
+              "location": "Google_StepDefs.the_user_should_able_to_see_the_result_of_the_search()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@google"
+          }
+        ]
+      }
+    ],
+    "name": "Searching on Google",
+    "description": "",
+    "id": "searching-on-google",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/feature/google.feature",
+    "tags": []
+  }
+]
