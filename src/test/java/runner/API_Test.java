@@ -18,6 +18,7 @@ import io.restassured.response.Response;
 
 public class API_Test {
 	
+	String temp;
 	
 	ObjectMapper mapper = new ObjectMapper();
 	
